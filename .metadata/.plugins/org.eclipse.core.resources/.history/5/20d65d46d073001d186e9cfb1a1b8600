@@ -1,0 +1,13 @@
+#spring.datasource.url=jdbc:hsqldb:mem:localhost
+#spring.datasource.driver-class-name=org.hsqldb.jdbcDriver
+spring.datasource.driver.class=oracle.jdbc.driver.OracleDriver
+spring.datasource.url=jdbc:oracle:thin:@localhost:60168/SID
+spring.datasource.username=sys as sysdba
+spring.datasource.password=password
+spring.sql.init.mode=always
+#
+#<dependency>
+#			<groupId>com.oracle.database.jdbc</groupId>
+#			<artifactId>ojdbc8</artifactId>
+#			<scope>runtime</scope>
+#		</dependency>
